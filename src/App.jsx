@@ -3,8 +3,9 @@ import { Play, Pause, RotateCcw, Shuffle, BarChart3 } from 'lucide-react';
 import { SortingVisualizer } from './components/SortingVisualizer';
 import { ControlPanel } from './components/ControlPanel';
 import { Statistics } from './components/Statistics';
-import { useSortingAlgorithm } from './hooks/UseSortingAlgorithm';
+import { useSortingAlgorithm } from './hooks/useSortingAlgorithm';
 import { generateRandomArray } from './utils/SortingUtils';
+
 
 function App() {
   const [array, setArray] = useState([]);
